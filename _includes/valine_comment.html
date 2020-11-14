@@ -1,0 +1,18 @@
+<!--
+  The Disqus lazy loading.
+  Powered by: https://osvaldas.info/lazy-loading-disqus-comments
+  v2.0
+  https://github.com/cotes2020/jekyll-theme-chirpy
+  © 2019 Cotes Chung
+  MIT License
+-->
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        app_id: '{{ site.data.social.valine_comment.leancloud_appid }}',
+        app_key: '{{ site.data.social.valine_comment.leancloud_appkey }}',
+        placeholder:'{{ site.valine_comment.placeholder }}'
+    });
+</script>
