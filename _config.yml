@@ -15,7 +15,7 @@ tagline: A man who love anime forever.  # it will display as the sub-title
 description: >-                        # used by seo meta and the atom feed
     keep modest in learning, for complacency is the enemy of study. 
 
-# Replace with the website url, e.g. 'https://username.github.io'
+# fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'Gah0.github.io'
 
 author: Gah0                  # change to your full name
@@ -82,7 +82,7 @@ valine_comment:
 #
 theme_mode: dual
 
-# boolean type, global switch for ToC in posts.
+# boolean type, the global switch for ToC in posts.
 toc: true
 
 paginate: 10
@@ -107,16 +107,21 @@ kramdown:
 # or you think you're smart enough to change other relevant URLs within this template.
 permalink: /posts/:title/
 
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+
 defaults:
   -
     scope:
-      path: ""          # An empty string here means all files in the project
+      path: ''          # An empty string here means all files in the project
       type: posts
     values:
       layout: post
       comments: true    # Enable comments in posts.
       toc: true         # Display TOC column in posts.
-      location: Post
       breadcrumb:
         -
           label: Posts
@@ -130,8 +135,6 @@ defaults:
     scope:
       path: tags
     values:
-      tab_active: Tags
-      location: Tag
       breadcrumb:
         -
           label: Home
@@ -143,8 +146,6 @@ defaults:
     scope:
       path: categories
     values:
-      tab_active: Categories
-      location: Category
       breadcrumb:
         -
           label: Home
@@ -154,7 +155,8 @@ defaults:
           url: /tabs/categories/
   -
     scope:
-      path: tabs
+      path: ''
+      type: tabs             # see `site.collections`
     values:
       layout: page
       dynamic_title: true    # Hide title in mobile screens.

@@ -1,5 +1,7 @@
 ---
 title: About
+icon: fas fa-info
+order: 4
 
 # The About page
 # v2.0
@@ -24,6 +26,3 @@ title: About
 
 ​另外，我是一个Linux Kernel Enthusiast，擅长给Android/Linux Kernel做backport，
 曾反向移植EAS负载调度器/f2fs最新分支在到linux-3.10.y的移动设备上，为上游开源做贡献。
-
-
-​
