@@ -53,7 +53,7 @@ graph LR
 
 **新建PCB元件库 (PCB Library)**
 
-![1](/Gah0.github.io/_post/20201110/1.png)
+![1](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/1.png)
 
 **创建完成后**
 
@@ -61,7 +61,7 @@ graph LR
 >
 > 对每个新建窗户都要按一下CTRL+S快捷键
 
-![2](/Gah0.github.io/_post/20201110/2.png)
+![2](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/2.png)
 
 #### 1.旋转元件
 
@@ -83,15 +83,15 @@ graph LR
 
 > 以下图为淘宝的**微动开关**规格。
 
-![淘宝的微动开关](/Gah0.github.io/_post/20201110/淘宝的微动开关.png)
+![淘宝的微动开关](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/淘宝的微动开关.png)
 
 > 以下为**微动开关**的PCB封装，在Top Overlay层绘画，以下为四个过孔与四根直线，打板后，直线部分与数字会变成白色线条和注释，以下的过孔应该使用焊盘，此外，这是我第一次画封装，没想到直径1.5cm焊盘直径会这么小。
 
-![PCB封装重新画](/Gah0.github.io/_post/20201110/PCB封装.jpg)
+![PCB封装重新画](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/PCB封装.jpg)
 
-这次的电路设计，电路所需的主要的PCB封装是LED过孔，微动开关，排母过孔，滑动变阻器过孔，8PIN（NE555）, 16 PIN（CD4017）, 18PIN （LM3914）DIP底座
+这次的电路设计，电路所需的主要的PCB封装是LED焊盘，微动开关，排母过孔，滑动变阻器过孔，8PIN（NE555）, 16 PIN（CD4017）, 18PIN （LM3914）DIP底座
 
-![PCB封装基底座](/Gah0.github.io/_post/20201110/PCB封装基底座.png)
+![PCB封装基底座](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/PCB封装基底座.png)
 
 **小提示：**dip封装的芯片，去淘宝搜索dip芯片底座的数据，在AD中利用快速向导 (Footprint Wizard) 去生成PCB封装（长宽固定，双排引脚对齐），这样的封装就不需要自己画了，简单省事。
 
@@ -103,7 +103,7 @@ graph LR
 
 菜单栏  -> 编辑  ->  设置参考 -> 位置  （**快捷键-E-F-L**）  然后可以自己放置圆点的位置。
 
-![PCB元件与层](/Gah0.github.io/_post/20201110/PCB元件与层.png)
+![PCB元件与层](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/PCB元件与层.png)
 
 AD软件下方有很多的方块，这些都是PCB的层，一般都在**Top Overlay**层画封装，上图是错误的，因为他不是PCB板的最顶层。
 
@@ -115,13 +115,13 @@ AD软件下方有很多的方块，这些都是PCB的层，一般都在**Top Ove
 
 打PCB板的时候，因为是资金不足，因此我只需要两层，TOP LAYER与BOTTOM LAYER。
 
-![PCB层](/Gah0.github.io/_post/20201110/PCB层.png)
+![PCB层](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/PCB层.png)
 
 > 以下为存放LED灯的过孔，孔径2.54mm，孔距1mm，基本上所有焊接洞洞板都是这个数据。
 >
 > 过孔是错误的，实际上要使用焊盘，请注意。
 
-![更改单位](/Gah0.github.io/_post/20201110/更改单位.png)
+![更改单位](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/更改单位.png)
 
 
 
@@ -145,7 +145,7 @@ AD软件下方有很多的方块，这些都是PCB的层，一般都在**Top Ove
 
 > 以下为自己画的**微动开关**原理图元件，两根导线，两个小圆圈，两个多边形组成的元件
 
-![导入PCB封装](/Gah0.github.io/_post/20201110/导入PCB封装.png)
+![导入PCB封装](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/导入PCB封装.png)
 
 如果元件已经放入原理图，而又忘记导入封装，又或者PCB封装需要修改，可以在图中左处 SCH Library 中选中的元件，**更新原理图（Update Schematic）** 即可。
 
@@ -157,7 +157,7 @@ AD软件下方有很多的方块，这些都是PCB的层，一般都在**Top Ove
 
 > 以下为排放好的电路原理图
 
-![生成PCB](/Gah0.github.io/_post/20201110/生成PCB.png)
+![生成PCB](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/生成PCB.png)
 
 电路原理图完成之后，我们就可以开始生成PCB了。
 
@@ -215,7 +215,7 @@ AD软件下方有很多的方块，这些都是PCB的层，一般都在**Top Ove
 
 一般全选器件后，使用排列功能，让元件整齐排放，像棍子一样，如图LED灯整齐排放。
 
-![QQ截图20201016113551](/Gah0.github.io/_post/20201110/QQ截图20201016113551.png)
+![QQ截图20201016113551](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/QQ截图20201016113551.png)
 
 ##### 2.在原理图选中PCB器件器件
 
@@ -227,7 +227,7 @@ AD软件下方有很多的方块，这些都是PCB的层，一般都在**Top Ove
 
 往别的地方画个框，自动移动选中的元件在一起。
 
-![交叉工具联合](/Gah0.github.io/_post/20201110/交叉工具联合.png)
+![交叉工具联合](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/交叉工具联合.png)
 
 PCB的布局尽量按照信号优先，美观其次，毕竟我加入过外貌协会。
 
@@ -250,7 +250,7 @@ PCB的布局尽量按照信号优先，美观其次，毕竟我加入过外貌�
 
 那是软件规则设置错误了。
 
-![设计规则检查器](/Gah0.github.io/_post/20201110/设计规则检查器.png)
+![设计规则检查器](https://raw.githubusercontent.com/Gah0/Gah0.github.io/master/_posts/20201110/设计规则检查器.png)
 
 菜单栏  -> 工具  ->  设置规则检查 -> 右键去除所有错误，保留电气属性的报错。
 
