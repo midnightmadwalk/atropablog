@@ -125,6 +125,10 @@ layout: default
 
     {% include post-nav.html %}
 
+    {% if site.disqus.comments and page.comments %}
+      {% include disqus.html %}
+    {% endif %}
+
     {% if site.valine_comment %}
       {% include valine_comment.html %}
     {% endif %}

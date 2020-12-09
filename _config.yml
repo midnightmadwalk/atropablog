@@ -66,7 +66,9 @@ disqus:
 
 valine_comment:
   enable: true     # boolean type, the global switch for posts comments.
-  placeholder: "欢迎来评，支持Markdown语法"
+  leancloud_appid: R5OK10xkSoGTlm884Fba7SMi-gzGzoHsz
+  leancloud_appkey: TCfjXmWCwcL058968VI0QNwO
+  placeholder: 欢迎来评，支持Markdown语法！
   #id api/key on _data/social.yml
 
 # Prefer color scheme setting.
