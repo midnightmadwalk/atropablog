@@ -9,12 +9,12 @@
 # --------------------------
 title: Gah0                            # the main title
 
-tagline: A man who love anime forever.  # it will display as the sub-title
+tagline: 一色彩羽我老婆  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
     keep modest in learning, for complacency is the enemy of study. 
 
-# fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://gah0.github.io/'
 
 author: Gah0                  # change to your full name
@@ -83,7 +83,15 @@ valine_comment:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # <light|dark>
+theme_mode:   # [light|dark]
+
+# The CDN endpoint for images.
+# Notice that once it is assigned, the CDN url
+# will be added to all image (site avatar & posts' images) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+img_cdn: ''
+
 
 # boolean type, the global switch for ToC in posts.
 toc: true
