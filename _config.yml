@@ -19,8 +19,6 @@ url: 'https://gah0.github.io/'
 
 author: Gah0                  # change to your full name
 
-avatar: /assets/img/sample/avatar1.png   # support internet resources
-
 github:
   username: Gah0             # change to your github username
 
@@ -92,6 +90,8 @@ theme_mode:   # [light|dark]
 # e.g. 'https://cdn.com'
 img_cdn: ''
 
+# the avatar on sidebar, support local or CORS resources
+avatar: /assets/img/sample/avatar1.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
