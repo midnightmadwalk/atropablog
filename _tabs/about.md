@@ -2,12 +2,6 @@
 title: About
 icon: fas fa-info
 order: 4
-
-# The About page
-# v2.0
-# https://github.com/Gah0/Gah0.github.io
-# © 2017-2019 Gah0
-# MIT License
 ---
 
 - 喜欢上网，看书，食物，睡觉，兴趣是编曲和编程。​
