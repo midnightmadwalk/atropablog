@@ -1,9 +1,3 @@
-<div align="right">
-
-  EN / [中文](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/README.zh-CN.md)
-
-</div>
-
 <div align="center">
 
   # Chirpy Jekyll Theme
@@ -25,65 +19,32 @@
 ## Features
 
 - Localized Layout
-- Configurable Theme Mode
+- Dark/Light Theme Mode
 - Pinned Posts
 - Hierarchical Categories
 - Last Modified Date for Posts
 - Table of Contents
-- Automatically Recommend Related Posts
+- Auto-generated Related Posts
 - Syntax Highlighting
 - Mathematical Expressions
 - Mermaid Diagram & Flowchart
+- Disqus/Utterances Comments
 - Search
 - Atom Feeds
-- Disqus Comments
 - Google Analytics
-- GA Pageviews Reporting (Advanced)
+- GA Pageviews Reporting
 - SEO & Performance Optimization
 
-## Prerequisites
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`.
+## Quick Start
 
-## Installation
+Before starting, please follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`.
 
-### Creating a New Site
+### Step 1. Creating a New Site
 
-There are two ways to create a new repository for this theme:
+Create a new repository from the [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter/generate) and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
 
-- [**Using the Chirpy Starter**](#option-1-using-the-chirpy-starter) - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
-- [**Forking on GitHub**](#option-2-forking-on-github) - Convenient for custom development, but difficult to upgrade. Unless you are familiar with Jekyll and are determined to tweak or contribute to this project, this approach is not recommended.
-
-#### Option 1. Using the Chirpy Starter
-
-Create a new repository from the [**Chirpy Starter**][use-starter] and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
-
-#### Option 2. Forking on GitHub
-
-[Fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) on GitHub and rename it to `<GH_USERNAME>.github.io`. Please note that the default branch code is in development.  If you want the site to be stable, please switch to the [latest tag][latest-tag] and start writing.
-
-And then execute:
-
-```console
-$ bash tools/init.sh
-```
-
-> **Note**: If you don't want to deploy your site on GitHub Pages, append option `--no-gh` at the end of the above command.
-
-The above command will:
-
-1. Removes some files or directories from your repository:
-    - `.travis.yml`
-    - files under `_posts`
-    - folder `docs`
-
-2. If the option `--no-gh` is provided, the directory `.github` will be deleted. Otherwise, set up the GitHub Action workflow by removing the extension `.hook` of `.github/workflows/pages-deploy.yml.hook`, and then remove the other files and directories in the folder `.github`.
-
-3. Removes item `Gemfile.lock` from `.gitignore`.
-
-4. Creates a new commit to save the changes automatically.
-
-### Installing Dependencies
+### Step 2. Installing Dependencies
 
 Before running for the first time, go to the root directory of your site, and install dependencies as follows:
 
@@ -91,32 +52,15 @@ Before running for the first time, go to the root directory of your site, and in
 $ bundle
 ```
 
-## Usage
+### Step 3. Running Local Server
 
-### Configuration
-
-Update the variables of `_config.yml` as needed. Some of them are typical options:
-
-- `url`
-- `avatar`
-- `timezone`
-- `lang`
-
-### Customing Stylesheet
-
-If you need to customize the stylesheet, copy the theme's `assets/css/style.scss` to the same path on your Jekyll site, and then add the custom style at the end of the style file.
-
-Starting from [`v4.1.0`][chirpy-4.1.0], if you want to overwrite the SASS variables defined in `_sass/addon/variables.scss`, create a new file `_sass/variables-hook.scss` and assign new values to the target variable in it.
-
-### Running Local Server
-
-You may want to preview the site contents before publishing, so just run it by:
+Run the following command in the root directory of the site:
 
 ```console
 $ bundle exec jekyll s
 ```
 
-Or run the site on Docker with the following command:
+Or run with Docker:
 
 ```console
 $ docker run -it --rm \
@@ -127,6 +71,7 @@ $ docker run -it --rm \
 
 After a while, the local service will be published at _<http://127.0.0.1:4000>_.
 
+<<<<<<< HEAD
 ### Deployment
 
 Before the deployment begins, check out the file `_config.yml` and make sure the `url` is configured correctly. Furthermore, if you prefer the [**project site**](https://help.github.com/en/github/working-with-github-pages/about-github-pages#types-of-github-pages-sites) and don't use a custom domain, or you want to visit your website with a base URL on a web server other than **GitHub Pages**, remember to change the `baseurl` to your project name that starts with a slash, e.g, `/project-name`.
@@ -205,13 +150,15 @@ It depends on how you use the theme:
 - If you forked from the source project (there will be `gemspec` in the `Gemfile` of your site), then merge the [latest upstream tags][latest-tag] into your Jekyll site to complete the upgrade.
 The merge is likely to conflict with your local modifications. Please be patient and careful to resolve these conflicts.
 
+=======
+>>>>>>> 65a38c8 (Simplify the README)
 ## Documentation
 
-For more details and a better reading experience, please check out the [tutorials on the demo site](https://cotes2020.github.io/chirpy-demo/categories/tutorial/). In the meanwhile, a copy of the tutorial is also available on the [Wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki). Please note that the tutorials on the demo website or Wiki are based on the latest release, and the features of `master` branch are usually ahead of the documentation.
+For more details on usage, please refer to the tutorial on the [demo website](https://cotes2020.github.io/chirpy-demo/). At the same time, a copy of the tutorial is also available on the [Wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki). Please note that the tutorial is based on the [latest release](https://github.com/cotes2020/jekyll-theme-chirpy/releases), and the features of the default branch are usually ahead of the documentation.
 
 ## Contributing
 
-The old saying, "Two heads are better than one." Consequently, welcome to report bugs, improve code quality or submit a new feature. For more information, see [contributing guidelines](.github/CONTRIBUTING.md).
+Welcome to report bugs, improve code quality or submit a new feature. For more information, see [contributing guidelines](.github/CONTRIBUTING.md).
 
 ## Credits
 
@@ -232,13 +179,6 @@ If you like this theme or find it helpful, please consider sponsoring me, becaus
 ## License
 
 This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) License.
-
-[starter]: https://github.com/cotes2020/chirpy-starter
-[use-starter]: https://github.com/cotes2020/chirpy-starter/generate
-[workflow]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/.github/workflows/pages-deploy.yml.hook
-[chirpy-4.1.0]: https://github.com/cotes2020/jekyll-theme-chirpy/releases/tag/v4.1.0
-[pages-src]: https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-[latest-tag]: https://github.com/cotes2020/jekyll-theme-chirpy/tags
 
 <!-- ReadMe links -->
 
