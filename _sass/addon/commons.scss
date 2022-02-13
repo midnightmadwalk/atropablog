@@ -938,12 +938,6 @@ $sidebar-display: "sidebar-display";
     font-size: 0.9rem;
     color: var(--search-icon-color);
   }
-
-  .fa-times-circle { /* button 'clean up' */
-    @extend %cursor-pointer;
-
-    visibility: hidden;
-  }
 }
 
 #search-cancel { /* 'Cancel' link */
@@ -960,6 +954,7 @@ $sidebar-display: "sidebar-display";
   border-radius: 0;
   padding: 0.18rem 0.3rem;
   color: var(--text-color);
+  height: auto;
 
   &:focus {
     box-shadow: none;
@@ -1294,10 +1289,6 @@ $sidebar-display: "sidebar-display";
     &.loaded ~ a {
       margin-right: 1rem;
     }
-
-    .fa-times-circle {
-      right: 5.2rem;
-    }
   }
 
   #search-input {
@@ -1540,10 +1531,6 @@ $sidebar-display: "sidebar-display";
     > div {
       max-width: 1110px;
     }
-  }
-
-  #search-wrapper .fa-times-circle {
-    right: 2.6rem;
   }
 
 }
