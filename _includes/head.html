@@ -87,6 +87,10 @@
 
   <script src="{{ site.data.assets[origin].jquery.js }}"></script>
 
+  {% unless site.theme_mode %}
+    {% include mode-toggle.html %}
+  {% endunless %}
+
   <!-- Valine Comment -->
   {% if site.valine_comment.enable and page.comments == true %}
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
