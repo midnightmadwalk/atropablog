@@ -39,10 +39,9 @@ social:
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Gah0
   email: g0d3ph@gmail.com             # change to your email address
-
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/Gah0_      # change to your twitter homepage
+    - https://twitter.com/Gah008      # change to your twitter homepage
     - https://github.com/Gah0       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
