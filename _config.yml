@@ -53,10 +53,6 @@ google_site_verification: google_meta_tag_verification      # fill in to your ve
 
 google_analytics:
   id: 'UA-176784928-1'          # fill with your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path: # the local PV cache data, friendly to visitors from GFW region
 
 valine_comment:
   enable: true     # boolean type, the global switch for posts comments.
