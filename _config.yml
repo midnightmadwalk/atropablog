@@ -23,10 +23,10 @@ title: Gah0                            # the main title
 tagline: 一色彩羽, 一之濑千鹤我老婆  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-    keep modest in learning, for complacency is the enemy of study. 
+    keep modest in learning, for complacency is the enemy of study.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://gah0.github.io/'
+url: 'https://deploy-tan.vercel.app/'
 
 github:
   username: Gah0             # change to your github username
