@@ -273,6 +273,8 @@ i {
       margin-bottom: 0.3rem;
     }
 
+    @extend %sup-fn-target;
+
     > p {
       margin-left: 0.25em;
       margin-top: 0;
@@ -297,7 +299,6 @@ i {
     @include pl-pr(2px);
 
     border-bottom-style: none !important;
-    transition: background-color 1.5s ease-in-out;
   }
 
   /* [scroll-focus] added by `smooth-scroll.js` */
@@ -305,6 +306,10 @@ i {
     sup[scroll-focus='true'] > a#{&} {
     background-color: var(--footnote-target-bg);
   }
+}
+
+sup {
+  @extend %sup-fn-target;
 }
 
 .reversefootnote {
