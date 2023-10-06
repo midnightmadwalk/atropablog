@@ -3,10 +3,6 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
-baseurl: ""
-
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -24,11 +20,12 @@ tagline: 一色彩羽, 一之濑千鹤我老婆 # it will display as the sub-tit
 description: >- # used by seo meta and the atom feed
   keep modest in learning, for complacency is the enemy of study.
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://deploy-tan.vercel.app/"
+# Fill in the protocol & hostname for your site.
+# e.g. 'https://username.github.io', note that it does not end with a '/'.
+url: ""
 
 github:
-  username: github_username # change to your github username
+  username: Gah0 # change to your github username
 
 twitter:
   username: Gah008 # change to your twitter username
@@ -113,6 +110,9 @@ pwa:
   enabled: true # the option for PWA feature
 
 paginate: 10
+
+# The base URL of your site
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
