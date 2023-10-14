@@ -13,32 +13,32 @@ timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-title: Gah0 # the main title
+title: Atropa Blog # the main title
 
-tagline: 一色彩羽, 一之濑千鹤我老婆 # it will display as the sub-title
+tagline: Atropa Blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   keep modest in learning, for complacency is the enemy of study.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://atropa.blog"
 
 github:
-  username: Gah0 # change to your github username
+  username:  # change to your github username
 
 twitter:
-  username: Gah008 # change to your twitter username
+  username:  # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Gah0
-  email: g0d3ph@gmail.com             # change to your email address
+  name: 
+  email:              # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/Gah0       # change to your github homepage
-    - https://twitter.com/Gah008      # change to your twitter homepage
+    -      # change to your github homepage
+    -     # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -49,7 +49,7 @@ google_site_verification: google_meta_tag_verification      # fill in to your ve
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: 'UA-176784928-1'          # fill with your Google Analytics ID
+  id: ''          # fill with your Google Analytics ID
 
 
 # Prefer color scheme setting.
